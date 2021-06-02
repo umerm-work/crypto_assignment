@@ -1,0 +1,13 @@
+app:
+  name: "crypto-conversion"
+  port: 5000
+
+currency_pairs:
+  fsyms: "BTC"
+  tsyms: "USD,EUR"
+postgres:
+  db_host: "localhost:5432"
+  db_name: "crypto_conversion"
+  db_user: "postgres"
+  db_password: "123"
+  db_debug: true
